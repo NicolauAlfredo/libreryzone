@@ -1,0 +1,248 @@
+/* Import Google Font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav, ul {
+    list-style: none;
+}
+
+/* MENU */
+
+.navbar {
+    position: absolute; 
+    display: flex;
+    width: 100%;
+    min-height: 5rem;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 1rem;
+    z-index: 200;
+}
+
+.navbar-contact {
+    background-color: #659dcc;
+    display: flex;
+    width: 100%;
+    min-height: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: .5rem;
+    color: #000;
+    border-radius: 5px;
+    z-index: 200;
+}
+
+.navbar-contact a {
+    color: #000;
+    border-left: 1px solid #000;
+    padding: 1rem;
+}
+
+.menu {
+    background-color: #B9C3C5;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    border-radius: 5px;
+    height: 5rem;
+}
+
+.menu h1 {
+    text-transform: uppercase;
+}
+.menu span {
+    color: blue;
+}
+.menu-ul {
+    display: flex;
+    align-items: center;
+}
+
+.menu-itens {
+    margin-right: 0.6rem;
+}
+
+.menu-itens a {
+    color: #000;
+    padding: 1rem;
+}
+
+.menu-itens a:hover {
+    border-bottom: 3px solid #000; 
+}
+
+.email {
+    display: flex; 
+    align-items: center;
+}
+
+.email span {
+    color: white;
+    margin-right: 0.5rem;
+}
+
+.phone {
+    display: flex; 
+    align-items: center;
+}
+
+.phone span {
+    color: white; 
+    margin-right: 0.5rem;
+}
+/* Corpo */
+
+.corpo {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/cover.jpg');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;  
+    text-align: center;
+}
+
+.cover-help {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+.corpo h1, 
+.corpo h3 {
+    color: #fff;
+    margin-bottom: 1.5rem;
+    z-index: 100;
+}
+
+/* Card 1 */
+.card { 
+    display: flex;
+    padding: 1rem;
+    align-items: center; 
+}
+
+.textos {
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    align-items: center;
+}
+ 
+.textos h1, h3 {
+    text-transform: uppercase;
+}
+.textos span {
+    color: blue;
+}
+
+.card-1 { 
+    background: #B9C3C5;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border-radius: 1rem;
+    z-index: 100; 
+    margin-right: 1rem;
+}
+
+.card-1 .formulario {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.card-1 h1 {
+    color: blue;
+    text-transform: uppercase;
+}
+
+/* Card 2 */
+.card-2 {    
+    background: #659dcc;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border-radius: 1rem;
+    z-index: 100;
+}
+
+.card-2 .formulario { 
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 1rem;
+}
+
+.card-2 h1 {
+    color: blue;
+    text-transform: uppercase;
+}
+
+
+/* Formulario geral */
+.formulario label {
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.formulario input {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    height: 2rem;
+    border-radius: .5rem;
+    padding: .5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    border: none;
+}
+
+
+/* Rodapé */
+
+#footer {
+    height: 200px;
+    background: #B9C3C5;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    max-height: 5rem;
+    font-size: 20px;
+}
+
+#footer a {
+    text-decoration: none;
+    background: #fff;
+    padding: 10px;
+    color: #000;
+    border-radius: 5px;
+}
+
+#footer a:hover {
+    color: blue;
+}
+ 
+#footer span { 
+    color: blue;
+}
